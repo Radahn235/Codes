@@ -1,0 +1,14 @@
+#q6 
+a=10
+b=20
+a,b=b,a
+print(a,b)
+c=a
+a=b
+b=a
+#q7
+a=int(input("no.one:"))
+b=int(input("no.two:"))
+c=int(input("no.three:"))
+avg=a+b+c/3
+print(avg)
